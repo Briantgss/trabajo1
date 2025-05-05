@@ -1,0 +1,412 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+    background-color: white;
+  }
+
+
+.btn {
+    display: inline-flex;
+    background: white;
+    color: black;
+    padding: 10px 20px;
+    text-decoration: none;
+    align-items: center;
+    gap: 20px;
+}
+
+.arrow {
+    height: 3vmin;
+    fill: yellow;
+}
+
+h3 {
+    color: white;
+}
+
+nav {
+    background-color: whitesmoke;
+    width: 100%;
+    height: 100px;
+    display: flex;   
+    justify-content: space-around;
+    align-items: center;
+}
+
+nav .menu {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    padding-left: 0px;
+}
+
+nav .menu li a {
+    color: #21224A;
+    text-decoration: none;
+}
+
+nav .menu li a:hover{
+    text-decoration: underline;
+}
+
+.hero {
+    width: 100%;
+    background-image: url(assets/img/hero-background.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    align-items: flex-start;
+    justify-content: left;
+    height: 800px;
+}
+
+.titulo-1 {
+   font-size: 25pt;
+   color: #6DCBD5;
+   margin: 0%;
+}
+
+.titulo-2 {
+    font-size: 25pt;
+    color: whitesmoke;
+    margin: 0%;
+}
+
+.hero-content {
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+    justify-content: end;
+    padding: 30vmin;
+    padding-top: 35%;
+    gap: 15px;
+}
+
+.bienvenida {
+    background-color: #F7F7F7;
+    height: 50vmin;
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    gap: 100px;
+    padding-left: 30vmin;
+    padding-right: 30vmin;
+}
+
+.productos-titulo {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 30vmin;
+    padding-right: 30vmin;
+    padding-bottom: 50px;
+}
+
+.productos-titulo a {
+    text-decoration: none;
+}
+
+.carrousel {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.producto-1 {
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    justify-items: center;
+    align-items: start;
+    background-image: url(assets/img/cortinas-de-vidrio.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 300px;
+    width: 300px;
+}
+
+.producto-2 {
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    justify-items: center;
+    align-items: start;
+    background-image: url(assets/img/mobiliario-exterior.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 300px;
+    width: 300px;
+}
+
+.producto-3 {
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    justify-items: center;
+    align-items: start;
+    background-image: url(assets/img/pergolas.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 300px;
+    width: 300px;
+}
+
+.reseñas {
+    display: flex;
+    background-color: #F7F7F7;
+    justify-items: top;
+    margin: 30vmin;
+}
+
+.reseñas-texto {
+    display: flex;
+    flex-direction: column;
+    padding: 15vmin;
+    justify-content: left;
+}
+
+.reseñas-texto h3{
+    color: #6DCBD5;
+    font-weight: 300;
+}
+
+.reseñas-imagenes {
+    display: flex;
+    width: 500vmin;
+    flex-wrap: wrap;
+    overflow: hidden;
+    justify-content: center;
+    align-content: center;
+}
+
+.form-titulo {
+    padding-left: 30vmin;
+    padding-right: 30vmin;
+    padding-bottom: 20px;
+}
+
+.form-titulo h2{
+    font-weight: 300;
+    margin: 0;
+}
+
+.form-contacto {
+    display: flex;
+    align-items: flex-start;
+    gap: 30px;
+    padding-left: 30vmin;
+    padding-right: 30vmin;
+    justify-content: center;
+    justify-items: center;
+  }
+  
+.formulario {
+    flex-basis: 40%;
+  }
+  
+.form-imagen {
+    flex-basis: 60%;
+  }
+  
+.form-imagen img {
+    width: 100%;
+    height: 61vmin;
+    object-fit: cover;
+    border-radius: 8px;
+  }
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    font-family: 'Montserrat';
+}
+
+input, textarea {
+    font-family: 'Montserrat';
+    padding: 15px;
+    font-size: 12px;
+    background: #f0efef;
+    border: none;
+    color: #333;
+}
+
+textarea {
+    font-family: 'Montserrat';
+    font-size: 12px;
+    height: 180px;
+    resize: none;
+}
+
+.btn-enviar {
+    background-color: #4b3f92;
+    font-family: 'Montserrat';
+    color: white;
+    border: none;
+    padding: 12px 26px;
+    font-size: 13px;
+    cursor: pointer;
+    display: inline-flex;
+    align-items: center;
+    gap: 15px;
+    margin-top: 20px;
+    width: fit-content;
+  }
+
+  .minicatalogo {
+    display: flex;
+    gap: 100px;
+    padding: 30px;
+    align-items: flex-start;
+    padding-left: 30vmin;
+    padding-right: 30vmin;
+    padding-top: 15vmin;
+  }
+
+.minicatalogo-text {
+    flex: 1;
+    max-width: 35%;
+}
+
+.minicatalogo-text p{
+    margin-top: 15px;
+    font-size: 16px;
+    line-height: 1.6;
+  }
+
+.minicatalogo-imagenes {
+    flex: 2;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 25px;
+}
+
+.minicatalogo-imagenes img{
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+.servicios {
+    display: flex;
+    gap: 40px;
+    align-items: flex-start;
+    padding-top: 10vmin;
+    padding-bottom: 10vmin;
+    padding-left: 30vmin;
+    padding-right: 30vmin;
+  }
+
+  .lista-servicios {
+    flex: 1;
+  }
+
+  .lista-servicios h3{
+    color: #333;
+    margin: 0;
+  }
+
+  .servicio {
+    display: flex;
+    align-items: flex-start;
+    gap: 15px;
+    margin-bottom: 30px;
+  }
+
+  .servicio i {
+    font-size: 24px;
+    color: #6DCBD5;
+    margin-top: 5px;
+  }
+
+  .servicios-img {
+    flex: 1;
+    display: grid;
+    align-items: center;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 15px;
+  }
+
+  .servicios-img img {
+    width: 100%;
+    height: auto;
+
+    object-fit: cover;
+  }
+
+  .footer {
+    background-color: #1b1b3c;
+    color: white;
+    padding: 40px 30px 20px;
+    font-family: 'Montserrat';
+    padding-left: 15vmin;
+    padding-right: 15vmin;
+    padding-top: 7vmin;
+    margin-top: 50px;
+  }
+  
+  .footer-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 30px;
+  }
+  
+  .footer-col {
+    flex: 1;
+    min-width: 200px;
+  }
+  
+  .footer-col h4 {
+    margin-bottom: 15px;
+    font-size: 16px;
+    font-weight: 600;
+  }
+  
+  .footer-col ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .footer-col ul li {
+    margin-bottom: 10px;
+  }
+  
+  .footer-col a {
+    text-decoration: none;
+    color: white;
+    font-size: 14px;
+  }
+  
+  .footer-col a:hover {
+    text-decoration: underline;
+  }
+  
+  .logo img {
+    width: 100px;
+  }
+  
+  .social-icons a {
+    margin-right: 10px;
+  }
+  
+  .social-icons img {
+    height: 20px;
+  }
+  
+  .footer-bottom {
+    text-align: center;
+    padding-top: 20px;
+    font-size: 13px;
+    color: #ccc;
+  }
